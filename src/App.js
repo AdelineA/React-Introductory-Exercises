@@ -1,4 +1,5 @@
 import ButtonClick from "./components/ButtonClick";
+import CountClicks from "./components/CountClicks";
 import HelloWorld from "./components/HelloWorld";
 import UserClick from "./components/UserClick";
 
@@ -8,6 +9,7 @@ function App() {
       <HelloWorld/>
       <UserClick/>
       <ButtonClick/> 
+      <CountClicks/>
     </div>
   );
 }
