@@ -7,10 +7,10 @@ import UserClick from "./components/UserClick";
 function App() {
   return (
     <div>
-      <HelloWorld/>
-      <UserClick/>
-      <ButtonClick/> 
-      <CountClicks/>
+      <HelloWorld />
+      <UserClick />
+      <ButtonClick />
+      <CountClicks />
       <CreateList/>
     </div>
   );
