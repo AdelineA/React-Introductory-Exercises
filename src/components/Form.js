@@ -14,8 +14,8 @@ export default function Form() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(alert(`Hello ${fName} ${lName}`))
-    setFName('')
+    alert(`Hello ${fName} ${lName}`)
+    setFName('');
     setLName('');
     
   };
