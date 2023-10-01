@@ -4,6 +4,7 @@ import CreateList from "./components/CreateList";
 import HelloWorld from "./components/HelloWorld";
 import List from "./components/List";
 import UserClick from "./components/UserClick";
+import Form from './components/Form'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <CountClicks/>
       <CreateList/>
       <List/>
+      <Form/>
     </div>
   );
 }
